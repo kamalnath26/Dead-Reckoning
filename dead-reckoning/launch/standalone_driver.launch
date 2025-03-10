@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<launch>
+    <arg name="gps_port" default="/dev/ttyUSB0" />
+    <arg name="imu_port" default="/dev/ttyUSB1" />
+
+	<node name="gps_driver"	pkg="gps_driver"	type="standalone_driver.py"	output="screen" >
+        <param name="port" value="$(arg gps_port)" />
+    </node>
+
+    <node name="imu_driver"	pkg="vn_driver"	type="standalone_driver.py"	output="screen" >
+        <param name="port" value="$(arg imu_port)" />
+    </node>
+</launch>
