@@ -1,0 +1,3 @@
+[submodule "GPS-Driver"]
+	path = GPS-Driver
+	url = https://github.com/kamalnath26/GPS-Driver.git
