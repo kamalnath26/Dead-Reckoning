@@ -1,3 +1,6 @@
 [submodule "GPS-Driver"]
 	path = GPS-Driver
 	url = https://github.com/kamalnath26/GPS-Driver.git
+[submodule "IMU-Driver"]
+	path = IMU-Driver
+	url = https://github.com/kamalnath26/IMU-Driver.git
